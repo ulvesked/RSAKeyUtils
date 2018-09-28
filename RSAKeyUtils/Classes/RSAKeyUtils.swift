@@ -3,7 +3,7 @@ import Security
 import UIKit
 
 @available(iOS 10.0, *)
-public class RSAKeyUtils {
+@objc public class RSAKeyUtils: NSObject {
     
     @objc public static func getKeyFromKeychain(_ tagName: String) -> SecKey? {
         return RSAUtils.getRSAKeyFromKeychain(tagName);
