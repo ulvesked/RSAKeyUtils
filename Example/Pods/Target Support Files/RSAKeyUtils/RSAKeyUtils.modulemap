@@ -1,0 +1,6 @@
+framework module RSAKeyUtils {
+  umbrella header "RSAKeyUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

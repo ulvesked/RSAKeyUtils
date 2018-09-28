@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0678D0A31787D1E47AAA1215B7412848 /* RSAKeyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BBFC200024E5C5A41D337C72D6454C /* RSAKeyUtils.swift */; };
+		27158173969A803C37492BF1DD7616C3 /* RSAKeyUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E2250F9A96C5D2DAD988AB38F7940 /* RSAKeyUtils-dummy.m */; };
+		3F239A07181D3D4707821E827A33CBF0 /* Pods-RSAKeyUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF28AD14FF815A60B610ADE4A8110F5 /* Pods-RSAKeyUtils_Tests-dummy.m */; };
+		75FE26A1BC25AD6DD75171F5CBD405C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		99F71C2086D52004C41AFF3B3C4DDB06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9AB8E0F0215E834300ED558B /* RSAUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8E0EC215E7FEB00ED558B /* RSAUtil.swift */; };
+		9AB8E0F1215E834700ED558B /* CryptoExportImportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8E0EE215E817600ED558B /* CryptoExportImportManager.swift */; };
+		A96B5350FE40EFB26506C840E5DB247F /* RSAKeyUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7167EEAEFCF45AF636F43A06D87C709B /* RSAKeyUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD0A8EC5BE312AB183C77193073A33DF /* Pods-RSAKeyUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93136C79BB1D4F8BF18F9CF69D1B46BF /* Pods-RSAKeyUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42DCFD5EFF6C4148D19C4FAFBFF5E99A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10D094CAE25F5E0FCB63BE176C575861;
+			remoteInfo = RSAKeyUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		328C80341E51EB7A352629A87249158D /* RSAKeyUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RSAKeyUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		358507F479A0D3D9C25663EC43555CD0 /* Pods_RSAKeyUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSAKeyUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CC9D936E0BB5AE8E28A4020338E63E /* RSAKeyUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSAKeyUtils-prefix.pch"; sourceTree = "<group>"; };
+		467BC1F6A2C4ED76BA196225DBEBFED9 /* Pods-RSAKeyUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSAKeyUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47A2E303F472EBA438459192057CCCF4 /* Pods-RSAKeyUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSAKeyUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70BBFC200024E5C5A41D337C72D6454C /* RSAKeyUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSAKeyUtils.swift; path = RSAKeyUtils/Classes/RSAKeyUtils.swift; sourceTree = "<group>"; };
+		7167EEAEFCF45AF636F43A06D87C709B /* RSAKeyUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSAKeyUtils-umbrella.h"; sourceTree = "<group>"; };
+		8E4E9288711C51A68937A281C8D78B66 /* Pods-RSAKeyUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSAKeyUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8FA63FEAAAB061F1D6B4BCB03DC18DD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93136C79BB1D4F8BF18F9CF69D1B46BF /* Pods-RSAKeyUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSAKeyUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94944F5BA237AB46517018098FADAC2F /* Pods-RSAKeyUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSAKeyUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		951561D5EDB6CBA68FA82006B12FF5A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB8E0EC215E7FEB00ED558B /* RSAUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RSAUtil.swift; path = RSAKeyUtils/Classes/RSAUtil.swift; sourceTree = "<group>"; };
+		9AB8E0EE215E817600ED558B /* CryptoExportImportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CryptoExportImportManager.swift; path = RSAKeyUtils/Classes/CryptoExportImportManager.swift; sourceTree = "<group>"; };
+		B303EFD658E2A2E464EC58C87CA88338 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B73BB247AA062E259CE3638D6C19C1A2 /* Pods-RSAKeyUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSAKeyUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		B7F1A8996A4E6ED425C39B984A9D69B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DCC078E53360F6B16809754982A74388 /* Pods-RSAKeyUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSAKeyUtils_Tests-resources.sh"; sourceTree = "<group>"; };
+		EDF28AD14FF815A60B610ADE4A8110F5 /* Pods-RSAKeyUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSAKeyUtils_Tests-dummy.m"; sourceTree = "<group>"; };
+		EFB1D9A951C7C7F8C16F093D19E9DDF3 /* RSAKeyUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSAKeyUtils.modulemap; sourceTree = "<group>"; };
+		F18E2250F9A96C5D2DAD988AB38F7940 /* RSAKeyUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSAKeyUtils-dummy.m"; sourceTree = "<group>"; };
+		F18F6FCF0C466E17CA7CB5FB2547D543 /* RSAKeyUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSAKeyUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9217941D53E417428EBB4DE7BFB3CF6 /* Pods-RSAKeyUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSAKeyUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA7732253228F62746B65F57ACBCCCD2 /* RSAKeyUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSAKeyUtils.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0289A608B10803B8E6E3DAC72200859E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F71C2086D52004C41AFF3B3C4DDB06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59B9FA84AF2699FF64C6951C3520A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FE26A1BC25AD6DD75171F5CBD405C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA4D8C302BC1E079B6D37DF68F8277B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				358507F479A0D3D9C25663EC43555CD0 /* Pods_RSAKeyUtils_Tests.framework */,
+				F18F6FCF0C466E17CA7CB5FB2547D543 /* RSAKeyUtils.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD102FD83A8CA44B508CE0275FD37A0 /* Pods-RSAKeyUtils_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8FA63FEAAAB061F1D6B4BCB03DC18DD9 /* Info.plist */,
+				B73BB247AA062E259CE3638D6C19C1A2 /* Pods-RSAKeyUtils_Tests.modulemap */,
+				467BC1F6A2C4ED76BA196225DBEBFED9 /* Pods-RSAKeyUtils_Tests-acknowledgements.markdown */,
+				94944F5BA237AB46517018098FADAC2F /* Pods-RSAKeyUtils_Tests-acknowledgements.plist */,
+				EDF28AD14FF815A60B610ADE4A8110F5 /* Pods-RSAKeyUtils_Tests-dummy.m */,
+				8E4E9288711C51A68937A281C8D78B66 /* Pods-RSAKeyUtils_Tests-frameworks.sh */,
+				DCC078E53360F6B16809754982A74388 /* Pods-RSAKeyUtils_Tests-resources.sh */,
+				93136C79BB1D4F8BF18F9CF69D1B46BF /* Pods-RSAKeyUtils_Tests-umbrella.h */,
+				F9217941D53E417428EBB4DE7BFB3CF6 /* Pods-RSAKeyUtils_Tests.debug.xcconfig */,
+				47A2E303F472EBA438459192057CCCF4 /* Pods-RSAKeyUtils_Tests.release.xcconfig */,
+			);
+			name = "Pods-RSAKeyUtils_Tests";
+			path = "Target Support Files/Pods-RSAKeyUtils_Tests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D50A7D57426C497CD86A42BF09CB4B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DD102FD83A8CA44B508CE0275FD37A0 /* Pods-RSAKeyUtils_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B88E118CE9076B7D152E8400589BF863 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1FA4D8C302BC1E079B6D37DF68F8277B /* Products */,
+				7D50A7D57426C497CD86A42BF09CB4B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E0E9FDBB00BF6BF5A1A7504219B559C /* RSAKeyUtils */ = {
+			isa = PBXGroup;
+			children = (
+				70BBFC200024E5C5A41D337C72D6454C /* RSAKeyUtils.swift */,
+				84C7C5D21F3E7A05D47F0406D56F64CA /* Pod */,
+				84CAF299374E8509C033177F0F61187E /* Support Files */,
+				9AB8E0EC215E7FEB00ED558B /* RSAUtil.swift */,
+				9AB8E0EE215E817600ED558B /* CryptoExportImportManager.swift */,
+			);
+			name = RSAKeyUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		84C7C5D21F3E7A05D47F0406D56F64CA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B303EFD658E2A2E464EC58C87CA88338 /* LICENSE */,
+				B7F1A8996A4E6ED425C39B984A9D69B0 /* README.md */,
+				328C80341E51EB7A352629A87249158D /* RSAKeyUtils.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		84CAF299374E8509C033177F0F61187E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				951561D5EDB6CBA68FA82006B12FF5A0 /* Info.plist */,
+				EFB1D9A951C7C7F8C16F093D19E9DDF3 /* RSAKeyUtils.modulemap */,
+				FA7732253228F62746B65F57ACBCCCD2 /* RSAKeyUtils.xcconfig */,
+				F18E2250F9A96C5D2DAD988AB38F7940 /* RSAKeyUtils-dummy.m */,
+				38CC9D936E0BB5AE8E28A4020338E63E /* RSAKeyUtils-prefix.pch */,
+				7167EEAEFCF45AF636F43A06D87C709B /* RSAKeyUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RSAKeyUtils";
+			sourceTree = "<group>";
+		};
+		B88E118CE9076B7D152E8400589BF863 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E0E9FDBB00BF6BF5A1A7504219B559C /* RSAKeyUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B6D29E55FE77CA07FDE32AB14158A8F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96B5350FE40EFB26506C840E5DB247F /* RSAKeyUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D3A9BDC371FFBFB7BA617A7153D36D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0A8EC5BE312AB183C77193073A33DF /* Pods-RSAKeyUtils_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10D094CAE25F5E0FCB63BE176C575861 /* RSAKeyUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610D7BB4C9F5B439FF772AE1CC6EE418 /* Build configuration list for PBXNativeTarget "RSAKeyUtils" */;
+			buildPhases = (
+				B6D29E55FE77CA07FDE32AB14158A8F9 /* Headers */,
+				AAE80098690597E257BC21526CEF6DD8 /* Sources */,
+				D59B9FA84AF2699FF64C6951C3520A6C /* Frameworks */,
+				A8BCD2982B955A5DECFBA36BD7AE397F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSAKeyUtils;
+			productName = RSAKeyUtils;
+			productReference = F18F6FCF0C466E17CA7CB5FB2547D543 /* RSAKeyUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A9473D9A97E12FC1BCE9E7AA092CB77 /* Pods-RSAKeyUtils_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C03D0A4504D0DCC5E589D68589CB6C4 /* Build configuration list for PBXNativeTarget "Pods-RSAKeyUtils_Tests" */;
+			buildPhases = (
+				E3D3A9BDC371FFBFB7BA617A7153D36D /* Headers */,
+				D4CE9A4D7BECBBA60106251E2F1A1072 /* Sources */,
+				0289A608B10803B8E6E3DAC72200859E /* Frameworks */,
+				F64A1F3C91A83D55FF39FF4D40AD0A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56032BB25AA1A63309C35B3B3352F29F /* PBXTargetDependency */,
+			);
+			name = "Pods-RSAKeyUtils_Tests";
+			productName = "Pods-RSAKeyUtils_Tests";
+			productReference = 358507F479A0D3D9C25663EC43555CD0 /* Pods_RSAKeyUtils_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					2A9473D9A97E12FC1BCE9E7AA092CB77 = {
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1FA4D8C302BC1E079B6D37DF68F8277B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A9473D9A97E12FC1BCE9E7AA092CB77 /* Pods-RSAKeyUtils_Tests */,
+				10D094CAE25F5E0FCB63BE176C575861 /* RSAKeyUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BCD2982B955A5DECFBA36BD7AE397F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64A1F3C91A83D55FF39FF4D40AD0A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE80098690597E257BC21526CEF6DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0678D0A31787D1E47AAA1215B7412848 /* RSAKeyUtils.swift in Sources */,
+				9AB8E0F0215E834300ED558B /* RSAUtil.swift in Sources */,
+				27158173969A803C37492BF1DD7616C3 /* RSAKeyUtils-dummy.m in Sources */,
+				9AB8E0F1215E834700ED558B /* CryptoExportImportManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CE9A4D7BECBBA60106251E2F1A1072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F239A07181D3D4707821E827A33CBF0 /* Pods-RSAKeyUtils_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56032BB25AA1A63309C35B3B3352F29F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSAKeyUtils;
+			target = 10D094CAE25F5E0FCB63BE176C575861 /* RSAKeyUtils */;
+			targetProxy = 42DCFD5EFF6C4148D19C4FAFBFF5E99A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		274FE92A7739816010DAFC09DDF98A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7732253228F62746B65F57ACBCCCD2 /* RSAKeyUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSAKeyUtils/RSAKeyUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSAKeyUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSAKeyUtils/RSAKeyUtils.modulemap";
+				PRODUCT_MODULE_NAME = RSAKeyUtils;
+				PRODUCT_NAME = RSAKeyUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F4CEE9253962ADFD21EC60E2663CACFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7732253228F62746B65F57ACBCCCD2 /* RSAKeyUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSAKeyUtils/RSAKeyUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSAKeyUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSAKeyUtils/RSAKeyUtils.modulemap";
+				PRODUCT_MODULE_NAME = RSAKeyUtils;
+				PRODUCT_NAME = RSAKeyUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8EB62931ACDD9F6B9D274332A0BD4F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9217941D53E417428EBB4DE7BFB3CF6 /* Pods-RSAKeyUtils_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSAKeyUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSAKeyUtils_Tests/Pods-RSAKeyUtils_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC02078904655E29181B4DAA4B5633BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A2E303F472EBA438459192057CCCF4 /* Pods-RSAKeyUtils_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSAKeyUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSAKeyUtils_Tests/Pods-RSAKeyUtils_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C03D0A4504D0DCC5E589D68589CB6C4 /* Build configuration list for PBXNativeTarget "Pods-RSAKeyUtils_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EB62931ACDD9F6B9D274332A0BD4F9 /* Debug */,
+				FC02078904655E29181B4DAA4B5633BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610D7BB4C9F5B439FF772AE1CC6EE418 /* Build configuration list for PBXNativeTarget "RSAKeyUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274FE92A7739816010DAFC09DDF98A4C /* Debug */,
+				F4CEE9253962ADFD21EC60E2663CACFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

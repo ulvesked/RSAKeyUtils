@@ -1,0 +1,22 @@
+{
+  "name": "RSAKeyUtils",
+  "version": "0.1.0",
+  "summary": "A short description of RSAKeyUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ulvesked/RSAKeyUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ulvesked": "aknutsson@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/ulvesked/RSAKeyUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RSAKeyUtils/Classes/**/*"
+}
