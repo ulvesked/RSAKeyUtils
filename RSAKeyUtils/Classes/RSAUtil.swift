@@ -44,7 +44,7 @@ public class RSAUtils {
     // Base64 decode a base64-ed string
     @available(iOS, introduced: 1.2.0)
     private static func base64Decode(_ strBase64: String) -> Data {
-        let data = Data(base64Encoded: strBase64, options: [])
+        let data = Data(base64Encoded: strBase64, options: [Data.Base64DecodingOptions.ignoreUnknownCharacters])
         return data!
     }
     
@@ -221,7 +221,7 @@ public class RSAUtils {
      */
     @available(iOS, introduced: 1.2.0)
     public static func addRSAPublicKey(_ pubkeyBase64: String, tagName: String) throws -> SecKey? {
-        let regExp = try! NSRegularExpression(pattern: "(-----BEGIN.*?-----)|(-----END.*?-----)|\\s+", options: [])
+        let regExp = try! NSRegularExpression(pattern: "(-----BEGIN.*?-----)|(-----END.*?-----)|[\\r\\n\\s]+", options: [])
         let myPubkeyBase64 = regExp.stringByReplacingMatches(in: pubkeyBase64, options: [], range: NSRange(location: 0, length: pubkeyBase64.count), withTemplate: "")
         return try addRSAPublicKey(base64Decode(myPubkeyBase64), tagName: tagName)
     }
